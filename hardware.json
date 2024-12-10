@@ -1,0 +1,7 @@
+{
+    "Basic Processor Simulator": {
+        "languages": ["C++", "Assembly"],
+        "repository": "https://github.com/abeeds/E20-Processor-Simulator",
+        "description": "This is a simulator for an elementary processor called E20. It takes assembly code, translates it to machine code, then finally runs it."
+    }
+}
