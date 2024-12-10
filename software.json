@@ -9,6 +9,6 @@
         "languages": ["PHP", "HTML", "CSS"],
         "tools": ["MySQL", "Amazon Web Service (AWS)"],
         "repository": "https://github.com/abeeds/City-Jail-App",
-        "description": "This app allows for data management using mock data. Most of the frontend and backend operations were done with PHP, and it was previously deployed on AWS."
+        "description": "This app allows for data management using mock criminal data. Most of the frontend and backend operations were done with PHP, and it was previously deployed on AWS."
     }
 }
