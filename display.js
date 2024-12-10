@@ -9,9 +9,11 @@ fetch(experience)
         const exp_arr = Object.keys(data);
 
         exp_div.innerHTML = `
-            <ul>
-                ${exp_arr.map(key => `<li>${key}</li>`).join('')}
-            </ul>
+            ${exp_arr.map(exp_name => `
+                <h1>${exp_name}</h1>
+                <p>Role: ${data[exp_name]["role"]}</p>
+                <p>Tools: ${data[exp_name]["tools"]}</p>
+            `).join('')}
         `;
     }).catch(error => console.error('Error fetching experience:', error));
 
@@ -23,8 +25,11 @@ fetch(projects)
         const proj_arr = Object.keys(data);
 
         proj_div.innerHTML = `
-            <ul>
-                ${proj_arr.map(key => `<li>${key}</li>`).join('')}
-            </ul>
+            ${proj_arr.map(proj_name => `
+                <h1>${proj_name}</h1>
+                <p>Languages: ${data[proj_name]["languages"]}</p>
+                ${data[proj_name]["tools"] ? `<p>Tools: ${data[proj_name]["tools"]}</p>` : ''}
+                <p>${data[proj_name]["description"]}</p>
+            `).join('')}
         `;
     }).catch(error => console.error('Error fetching projects:', error));
