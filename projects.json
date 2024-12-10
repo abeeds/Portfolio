@@ -5,10 +5,22 @@
         "repository": "https://github.com/abeeds/RASP",
         "description": "RASP is a messaging app where users can create, join, and communicate in chat rooms. We used GitHub Actions for our CI/CD pipeline, so our API was automatically deployed after a push, as long as the unit and integration tests passed."
     },
+    "Parkinson's Disease Tremor Detector": {
+        "languages": ["C++"],
+        "tools": ["Platform IO", "Adafruit Circuit Playground Classic"],
+        "repository": "https://github.com/abeeds/Embedded_Challenge_2024",
+        "video": "https://youtu.be/D1UgepeARtg",
+        "description": "We programmed an Adafruit Circuit Playground Classic to detect Parkinson's Disease tremors. The circuit board lights up green to yellow to red as the hand movement frequency nears a specific range."
+    },
     "City Jail App": {
         "languages": ["PHP", "HTML", "CSS"],
         "tools": ["MySQL", "Amazon Web Service (AWS)"],
         "repository": "https://github.com/abeeds/City-Jail-App",
         "description": "This app allows for data management using mock criminal data. Most of the frontend and backend operations were done with PHP, and it was previously deployed on AWS."
+    },
+    "Basic Processor Simulator": {
+        "languages": ["C++", "Assembly"],
+        "repository": "https://github.com/abeeds/E20-Processor-Simulator",
+        "description": "This is a simulator for an elementary processor called E20. It takes assembly code, translates it to machine code, then finally runs it."
     }
 }
