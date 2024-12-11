@@ -15,7 +15,7 @@ fetch(experience)
                 <p><strong>Tools</strong>: ${data[exp_name]["tools"].join(',  ')}</p>
 
                 <ul>
-                    ${data[exp_name]["description"].map(bullet => `
+                    ${data[exp_name]["desc"].map(bullet => `
                         <li>${bullet}</li>
                     `).join('')}
                 </ul>
@@ -32,11 +32,11 @@ fetch(projects)
         proj_div.innerHTML = `
             ${proj_arr.map(proj_name => `
                 <h2>${proj_name}</h2>
-                <p><strong>Languages</strong>: ${data[proj_name]["languages"].join(',  ')}</p>
+                <p><strong>Languages</strong>: ${data[proj_name]["lang"].join(',  ')}</p>
                 ${data[proj_name]["tools"] ? `<p><strong>Tools</strong>: ${data[proj_name]["tools"].join(',  ')}</p>` : ''}
 
                 <ul>
-                    ${data[proj_name]["description"].map(bullet => `
+                    ${data[proj_name]["desc"].map(bullet => `
                         <li>${bullet}</li>
                     `).join('')}
                 </ul>
