@@ -3,7 +3,9 @@
         "languages": ["Python", "Typescript", "CSS"],
         "tools": ["React", "Flask", "MongoDB", "PythonAnywhere", "Github Actions"],
         "repository": "https://github.com/abeeds/RASP",
-        "description": "RASP is a messaging app where users can create, join, and communicate in chat rooms. We used GitHub Actions for our CI/CD pipeline, so our API was automatically deployed after a push, as long as the unit and integration tests passed."
+        "bullets": ["Developed a Flask-RESTX API server integrated with a MongoDB database for a messaging app, deployed on a cloud server",
+                    "Created automated tests for all backend functions and API endpoints, ensuring robust functionality",
+                    "Designed and implemented an interactive and dynamic React TypeScript interface, ensuring a seamless user experience for sending messages and real-time updates"]
     },
     "Parkinson's Disease Tremor Detector": {
         "languages": ["C++"],
