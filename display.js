@@ -11,8 +11,8 @@ fetch(experience)
         exp_div.innerHTML = `
             ${exp_arr.map(exp_name => `
                 <h2>${exp_name}</h2>
-                <p>Role: ${data[exp_name]["role"]}</p>
-                <p>Tools: ${data[exp_name]["tools"]}</p>
+                <p><strong>Role</strong>: ${data[exp_name]["role"]}</p>
+                <p><strong>Tools</strong>: ${data[exp_name]["tools"]}</p>
             `).join('')}
         `;
     }).catch(error => console.error('Error fetching experience:', error));
