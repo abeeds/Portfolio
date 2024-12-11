@@ -12,15 +12,14 @@ fetch(experience)
             ${exp_arr.map(exp_name => `
                 <h2>${exp_name}</h2>
                 <p><strong>Role</strong>: ${data[exp_name]["role"]}</p>
-                <p><strong>Tools</strong>: ${data[exp_name]["tools"]}</p>
+                <p><strong>Tools</strong>: ${data[exp_name]["tools"].join(',  ')}</p>
                 <ul>
                     ${data[exp_name]["description"].map(bullet => `
                         <li>${bullet}</li>
                     `).join('')}
                 </ul>
-            `).join('')}
-        `;
-    }).catch(error => console.error('Error fetching experience:', error));
+            `).join('')}`;
+}).catch(error => console.error('Error fetching experience:', error));
 
 
 fetch(projects)
@@ -32,13 +31,12 @@ fetch(projects)
         proj_div.innerHTML = `
             ${proj_arr.map(proj_name => `
                 <h2>${proj_name}</h2>
-                <p><strong>Languages</strong>: ${data[proj_name]["languages"]}</p>
-                ${data[proj_name]["tools"] ? `<p><strong>Tools</strong>: ${data[proj_name]["tools"]}</p>` : ''}
+                <p><strong>Languages</strong>: ${data[proj_name]["languages"].join(',  ')}</p>
+                ${data[proj_name]["tools"] ? `<p><strong>Tools</strong>: ${data[proj_name]["tools"].join(',  ')}</p>` : ''}
                 <ul>
                     ${data[proj_name]["description"].map(bullet => `
                         <li>${bullet}</li>
                     `).join('')}
                 </ul>
-            `).join('')}
-        `;
-    }).catch(error => console.error('Error fetching projects:', error));
+            `).join('')}`;
+}).catch(error => console.error('Error fetching projects:', error));
