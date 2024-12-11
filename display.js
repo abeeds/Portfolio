@@ -10,7 +10,7 @@ fetch(experience)
 
         exp_div.innerHTML = `
             ${exp_arr.map(exp_name => `
-                <h1>${exp_name}</h1>
+                <h2>${exp_name}</h2>
                 <p>Role: ${data[exp_name]["role"]}</p>
                 <p>Tools: ${data[exp_name]["tools"]}</p>
             `).join('')}
@@ -26,9 +26,9 @@ fetch(projects)
 
         proj_div.innerHTML = `
             ${proj_arr.map(proj_name => `
-                <h1>${proj_name}</h1>
-                <p>Languages: ${data[proj_name]["languages"]}</p>
-                ${data[proj_name]["tools"] ? `<p>Tools: ${data[proj_name]["tools"]}</p>` : ''}
+                <h2>${proj_name}</h2>
+                <p><strong>Languages</strong>: ${data[proj_name]["languages"]}</p>
+                ${data[proj_name]["tools"] ? `<p><strong>Tools</strong>: ${data[proj_name]["tools"]}</p>` : ''}
                 <p>${data[proj_name]["description"]}</p>
             `).join('')}
         `;
