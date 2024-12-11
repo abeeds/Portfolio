@@ -2,7 +2,7 @@
     "NYU Augmented Library": {
         "role": "Backend Developer",
         "tools": ["Django Rest Framework", "Docker", "PostgreSQL", "Github Actions"],
-        "bullets": ["Implemented API endpoints using Django REST Framework for a room reservation system, integrated with a PostgreSQL database for data management",
+        "description": ["Implemented API endpoints using Django REST Framework for a room reservation system, integrated with a PostgreSQL database for data management",
                         "Configured and authored automated tests for API endpoints, integrating them with GitHub Actions to run on each push, ensuring continuous code quality",
                         "Created comprehensive API documentation, enhancing usability and streamlining contributions, which significantly boosted developer productivity"]
     }

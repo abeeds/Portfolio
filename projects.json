@@ -3,7 +3,7 @@
         "languages": ["Python", "Typescript", "CSS"],
         "tools": ["React", "Flask", "MongoDB", "PythonAnywhere", "Github Actions"],
         "repository": "https://github.com/abeeds/RASP",
-        "bullets": ["Developed a Flask-RESTX API server integrated with a MongoDB database for a messaging app, deployed on a cloud server",
+        "description": ["Developed a Flask-RESTX API server integrated with a MongoDB database for a messaging app, deployed on a cloud server",
                     "Created automated tests for all backend functions and API endpoints, ensuring robust functionality",
                     "Designed and implemented an interactive and dynamic React TypeScript interface, ensuring a seamless user experience for sending messages and real-time updates"]
     },
@@ -12,18 +12,18 @@
         "tools": ["Platform IO", "Adafruit Circuit Playground Classic"],
         "repository": "https://github.com/abeeds/Embedded_Challenge_2024",
         "video": "https://youtu.be/D1UgepeARtg",
-        "description": "We programmed an Adafruit Circuit Playground Classic to detect Parkinson's Disease tremors. The circuit board lights up green to yellow to red as the hand movement frequency nears a specific range."
+        "description": ["Programmed Adafruit Circuit Playground Classic to detect Parkinson's Disease tremors and notify users about them"]
     },
     "City Jail App": {
         "languages": ["PHP", "HTML", "CSS"],
         "tools": ["MySQL", "Amazon Web Service (AWS)"],
         "repository": "https://github.com/abeeds/City-Jail-App",
-        "bullets": ["Designed and developed a PHP web application that enables efficient data management with a MySQL database, focusing on seamless user interface design and user experience",
+        "description": ["Designed and developed a PHP web application that enables efficient data management with a MySQL database, focusing on seamless user interface design and user experience",
                     "Deployed the application on Amazon Web Services"]
     },
     "Basic Processor Simulator": {
         "languages": ["C++", "Assembly"],
         "repository": "https://github.com/abeeds/E20-Processor-Simulator",
-        "description": "This is a simulator for an elementary processor called E20. It takes assembly code, translates it to machine code, then finally runs it."
+        "description": ["Built a C++ program that takes E20 assembly code, translates it to machine code, and simulates its behavior"]
     }
 }
