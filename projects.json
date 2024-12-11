@@ -18,7 +18,8 @@
         "languages": ["PHP", "HTML", "CSS"],
         "tools": ["MySQL", "Amazon Web Service (AWS)"],
         "repository": "https://github.com/abeeds/City-Jail-App",
-        "description": "This app allows for data management using mock criminal data. Most of the frontend and backend operations were done with PHP, and it was previously deployed on AWS."
+        "bullets": ["Designed and developed a PHP web application that enables efficient data management with a MySQL database, focusing on seamless user interface design and user experience",
+                    "Deployed the application on Amazon Web Services"]
     },
     "Basic Processor Simulator": {
         "languages": ["C++", "Assembly"],
