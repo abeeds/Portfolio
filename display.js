@@ -5,6 +5,10 @@ const projects = "https://raw.githubusercontent.com/abeeds/Portfolio/refs/heads/
 fetch(experience)
     .then(response => response.json())
     .then(data => {
+        // remove temp message after fetching data
+        const temp_msg = document.querySelector('.exp_temp_msg');
+        temp_msg.remove();
+
         const exp_div = document.querySelector('.experience');
         const exp_arr = Object.keys(data);
 
@@ -26,6 +30,10 @@ fetch(experience)
 fetch(projects)
     .then(response => response.json())
     .then(data => {
+        // remove temp message after fetching data
+        const temp_msg = document.querySelector('.proj_temp_msg');
+        temp_msg.remove();
+
         const proj_div = document.querySelector('.projects');
         const proj_arr = Object.keys(data);
 
