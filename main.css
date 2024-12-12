@@ -7,20 +7,29 @@ html, body {
 }
 
 
+li {
+    margin-bottom: 0.5rem;
+}
+
+p, li {
+    line-height: 1.6;
+}
+
+
 .about_me_bg {
     background-color: black;
     width: 100%;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 
 .about_me_main {
     margin: auto;
-    width: 75%;
+    width: 55%;
 }
 
 
 .exp_bg {
     margin: auto;
-    width: 75%;
+    width: 55%;
 }
