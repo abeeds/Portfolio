@@ -2,7 +2,7 @@
     "RASP": {
         "lang": ["Python", "Typescript", "CSS"],
         "tools": ["React", "Flask", "MongoDB", "PythonAnywhere", "Github Actions"],
-        "repository": "https://github.com/abeeds/RASP",
+        "repo": "https://github.com/abeeds/RASP",
         "desc": ["Developed a Flask-RESTX API server integrated with a MongoDB database for a messaging app, deployed on a cloud server",
                     "Created automated tests for all backend functions and API endpoints, ensuring robust functionality",
                     "Designed and implemented an interactive and dynamic React TypeScript interface, ensuring a seamless user experience for sending messages and real-time updates"]
@@ -10,20 +10,20 @@
     "Parkinson's Disease Tremor Detector": {
         "lang": ["C++"],
         "tools": ["Platform IO", "Adafruit Circuit Playground Classic"],
-        "repository": "https://github.com/abeeds/Embedded_Challenge_2024",
+        "repo": "https://github.com/abeeds/Embedded_Challenge_2024",
         "video": "https://youtu.be/D1UgepeARtg",
         "desc": ["Programmed Adafruit Circuit Playground Classic to detect Parkinson's Disease tremors and notify users about them"]
     },
     "City Jail App": {
         "lang": ["PHP", "HTML", "CSS"],
         "tools": ["MySQL", "Amazon Web Service (AWS)"],
-        "repository": "https://github.com/abeeds/City-Jail-App",
+        "repo": "https://github.com/abeeds/City-Jail-App",
         "desc": ["Designed and developed a PHP web application that enables efficient data management with a MySQL database, focusing on seamless user interface design and user experience",
                     "Deployed the application on Amazon Web Services"]
     },
     "Basic Processor Simulator": {
         "lang": ["C++", "Assembly"],
-        "repository": "https://github.com/abeeds/E20-Processor-Simulator",
+        "repo": "https://github.com/abeeds/E20-Processor-Simulator",
         "desc": ["Built a C++ program that takes E20 assembly code, translates it to machine code, and simulates its behavior"]
     }
 }
