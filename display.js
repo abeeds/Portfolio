@@ -14,7 +14,7 @@ fetch(experience)
         exp_div.innerHTML = `
             ${exp_arr.map(exp_name => `
                 <h2>${exp_name}</h2>
-                <p class="details"><strong>Role</strong>: ${data[exp_name]["role"]}</p>
+                <h3 class="details">${data[exp_name]["role"]}</h3>
                 ${data[exp_name]["tools"] ? `
                     <p class="details"><strong>Tools</strong>: ${data[exp_name]["tools"].join(',  ')}</p>
                 ` : ''}
