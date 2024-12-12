@@ -16,7 +16,7 @@ fetch(experience)
             ${exp_arr.map(exp_name => `
                 <h2>${exp_name}</h2>
                 <p><strong>Role</strong>: ${data[exp_name]["role"]}</p>
-                <p><strong>Tools</strong>: ${data[exp_name]["tools"].join(',  ')}</p>
+                ${data[exp_name]["tools"] ? `<p><strong>Tools</strong>: ${data[exp_name]["tools"].join(',  ')}</p>` : ''}
 
                 <ul>
                     ${data[exp_name]["desc"].map(bullet => `
